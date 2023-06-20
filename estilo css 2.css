@@ -1,0 +1,332 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+@font-face{
+    font-family:'gunplay rg';
+    src: url('gunplay\ rg.otf')
+    format('truetype');
+}
+h1.home1{
+    font-family: gunplay rg ;
+    font-size: 80px;
+    text-shadow: 5px 5px 5px azure;
+
+}
+body{
+    background:linear-gradient(#d0b084,#d0b0848a);
+    height: 100%;
+}
+.bodyindex{
+    background: linear-gradient(#d0b0848a, #3f2702);
+}
+img.imghome{
+    filter: saturate(5.8), contrast(3.5),grayscale(6);
+    border-radius: 20px;
+    height: 350px;
+    box-shadow: 5px 5px 3px black;
+}
+.divhome{
+    width: 100%;
+    text-align: center;
+}
+body{
+    margin:0px;
+    padding:0px;
+    background-color: #f4f4f4;
+}
+
+.menu ul li{
+     background-color: none;
+     color: white;
+     float: right;   
+     width: 200px; 
+     height: 40px; 
+     display: block;
+     text-align:center;
+     line-height: 40px;
+     font-size: 25px;
+     position:relative;
+     border: 1px solid azure;
+     border-radius: 20px ;
+     margin: 0.2px;
+     
+}
+.menu ul li:hover{
+         background-color:azure;
+         color: black;
+         border-radius: 20px;
+         border:1px solid #000;
+         transition: 1s;
+}
+.menu ul{
+       padding:0px;
+}
+.menu ul ul{
+       display: none;
+}
+               
+.menu ul li:hover  > ul{
+       display: block;
+}
+.menu ul ul ul{
+        margin-left: 201px;
+         top: 0px;
+         position: absolute;
+}
+        
+.menu ul ul li:hover{
+        background-color:azure;
+        color: #000;
+        transition: 1s;
+}
+.menu a{
+        color:white;
+        text-decoration: none; 
+        transition: 1s;
+}
+.hr{
+    box-shadow: 0px 5px 40px #000;
+    height: 78px;
+    width: 100%;
+    background-color:#000;
+    text-align: center;
+    margin-top: 120px;
+    display: flex;
+}
+.rod{
+    color: azure;
+    text-shadow: 0.5px 0.5px 5px #7c7c7cf8 ;
+    margin-top: 28px;
+    margin-right: 39%;
+}
+html{
+    user-select: none;
+}
+.historia{
+    margin-left: 10px;
+    margin-right: 10px;
+    display: flex;
+}
+
+.hs2{
+    font-family: gunplay rg ;
+    font-size: 40px;
+    text-shadow: 1px 1px 20px azure;
+    margin-top: 20px;
+}
+.historia p{
+    margin-left: 20px;
+    font-size: 16.1px;
+    font-family:'poppins', sans-serif;
+    text-align: justify;
+    margin-right: 30px;
+    
+}
+.historia1 img{
+    filter: saturate(2) grayscale(0.2) contrast(0.8);
+    margin-top: 45px;
+    border-radius: 15px;
+    height: 280px;
+    width: 450px;
+    margin-left: 20px;
+    box-shadow: 2px 2px 5px black;
+    transition: 5s;  
+}
+.historia1 img:hover{
+    filter: saturate(2) grayscale(4) contrast(0.8);
+    margin-top: 45px;
+    border-radius: 15px;
+    height: 280px;
+    width: 450px;
+    margin-left: 20px;
+    box-shadow: 3px 3px 5px black;
+    transition: 5s;
+}
+.dinastia{
+    display: flex;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.dinastia p{
+    margin-left: 20px;
+    font-size: 16.1px;
+    font-family:'poppins', sans-serif;
+    text-align: justify;
+    margin-right: 30px;
+}
+.cami{
+    margin-top: -20px;
+    display: flex;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.cami p{
+    margin-top: 80px;
+    margin-left: 20px;
+    font-size: 18px;
+    font-family:'poppins', sans-serif;
+    text-align: justify;
+    margin-right: 30px;
+}
+.camisas img{
+    filter: saturate(1.5) grayscale(0.1) contrast(0.8);
+    margin-top: 45px;
+    border-radius: 15px;
+    height: 280px;
+    width: 450px;
+    margin-left: 20px;
+    box-shadow: 2px 2px 5px black;
+    transition: 5s;
+}
+.camisas img:hover{
+    filter: saturate(2) grayscale(4) contrast(0.8);
+    margin-top: 45px;
+    border-radius: 15px;
+    height: 280px;
+    width: 450px;
+    margin-left: 20px;
+    box-shadow: 3px 3px 5px black;
+    transition: 5s;
+}
+.bio{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.Fim img{
+    filter: saturate(1.5) grayscale(0.1) contrast(0.8);
+    margin-top: 45px;
+    border-radius: 15px;
+    height: 280px;
+    width: 450px;
+    margin-left: 20px;
+    box-shadow: 2px 2px 5px black;
+    transition: 5s;
+}
+.Fim img:hover{
+    filter: saturate(2) grayscale(4) contrast(0.8);
+    margin-top: 45px;
+    border-radius: 15px;
+    height: 280px;
+    width: 450px;
+    margin-left: 20px;
+    box-shadow: 3px 3px 5px black;
+    transition: 5s;
+}
+.fim{
+    margin-top: -20px;
+    display: flex;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.fim p{
+    margin-top: 80px;
+    margin-left: 20px;
+    font-size: 18px;
+    font-family:'poppins', sans-serif;
+    text-align: justify;
+    margin-right: 30px;
+}
+.co img{
+    filter: saturate(1.5) grayscale(0.1) contrast(0.8);
+    margin-top: 45px;
+    border-radius: 15px;
+    height: 280px;
+    width: 450px;
+    margin-left: 20px;
+    box-shadow: 2px 2px 5px black;
+    transition: 5s;
+}
+.conq{
+    display: flex;
+}
+.conq p{
+    margin-top: 40px;
+    margin-left: 20px;
+    font-size: 18px;
+    font-family:'poppins', sans-serif;
+    text-align: justify;
+    margin-right: 30px;
+}
+.mimg img{
+    filter: saturate(1.5) grayscale(0.1) contrast(0.8);
+    margin-top: 45px;
+    border-radius: 15px;
+    height: 280px;
+    width: 450px;
+    margin-left: 20px;
+    box-shadow: 2px 2px 5px black;
+    transition: 5s;
+}
+.morte{
+    display: flex;
+}
+.morte p{
+    margin-top: 40px;
+    margin-left: 20px;
+    font-size: 18px;
+    font-family:'poppins', sans-serif;
+    text-align: justify;
+    margin-right: 30px;
+}
+
+.mimg img:hover{
+    filter: saturate(2) grayscale(4) contrast(0.8);
+    margin-top: 45px;
+    border-radius: 15px;
+    height: 280px;
+    width: 450px;
+    margin-left: 20px;
+    box-shadow: 3px 3px 5px black;
+    transition: 5s;
+}
+.titulob{
+    font-size: 40px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-left: 45%;
+}
+.galeria img{
+    filter: saturate(1.5) grayscale(0.1) contrast(0.8);
+    margin-top: 45px;
+    border-radius: 15px;
+    height: 280px;
+    width: 450px;
+    margin-left: 20px;
+    box-shadow: 2px 2px 5px black;
+    transition: 5s;
+}
+.galeria{
+    display: inline-block;
+}
+.form{
+    margin-top: 112px;
+    margin-left: 30%;
+    display: flex;
+    height: 34.2vh;
+}
+.form input{
+    border-radius: 20px;
+    border: #000;
+}
+.formulario{
+    font-family: gunplay rg ;
+    font-size: 40px;
+    text-shadow: 1px 1px 20px azure;
+    margin-top: 40px;
+    margin-left: 32%;
+}
+.form textarea{
+    resize: none;
+    border-radius: 10px;
+    height: 95px;
+}
+.cont{
+
+    height: 90vh;
+}
+.contatofim{
+    margin-top: 457px;
+}
+.hr img{
+    height: 40px;
+    width: 40px;
+    margin-right: 10px;
+}

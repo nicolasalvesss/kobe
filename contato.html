@@ -1,0 +1,85 @@
+<!DOCTYPE html><!--Nicolas Alves, prof:Celia pw1-->
+<html>
+
+<head>
+    <title>Entrar em contato conosco</title>
+    <meta charset="UTF-8">
+    <link rel="icon" type="image/jpg" href="(Nic) fotos, audio, videos/icone-removebg-preview (1).png">
+    <link rel="stylesheet" type="text/css" href="estilo css 2.css">
+    <!--abrir java-->
+    <script language="javascript" type="text/javascript">
+        function validar() {
+            var nome = form1.nome.value;
+            var CPF = form1.CPF.value;
+            var RG = form1.RG.value;
+            var email = form1.email.value;
+            if (nome == "") {
+                alert('Por favor, preencha o campo com seu nome');
+                form1.nome.focus();
+                return false;
+            }
+            if (email == "") {
+                alert('Por favor, preencha o campo com seu email');
+                form1.email.focus();
+                return false;
+            }
+            if (CPF == "") {
+                alert('Por favor, preencha o campo com seu CPF');
+                form1.CPF.focus();
+                return false;
+            }
+            if (RG == "") {
+                alert('Por favor, preencha o campo com seu RG');
+                form1.RG.focus();
+                return false;
+            }
+
+            return true;
+        }
+    </script><!--fechamento de java-->
+</head>
+
+<body>
+    <nav class="menu">
+        <ul>
+            <a href="contato.html">
+                <li>Contato</li>
+            </a>
+            <a href="galeria.html">
+                <li> Galeria</li>
+            </a>
+            <a href="biografia.html">
+                <li>Biografia</li>
+            </a>
+            <a href="index.html">
+                <li>Home</li>
+            </a>
+        </ul>
+    </nav>
+    <br>
+    <h1 class="formulario">Vamos entrar em contato</h1>
+    <div class="form">
+        <p center>
+        <form name="form1" action="fim contato.html" method="get">
+            <b>Nome : </b> <input type="text" placeholder="nome" name="nome">
+            <font>⠀⠀⠀⠀⠀⠀⠀⠀⠀</font>
+            <b>Email : </b> <input type="text" placeholder="email" name="email"><br><br>
+            <b>CPF : </b> <input type="text" placeholder="CPF" name="CPF">
+            <font>⠀⠀⠀⠀⠀⠀⠀⠀⠀</font>
+            <b>RG : </b><input type="text" placeholder="RG" name="RG"><br><br>
+            <textarea cols="45" rols="25" placeholder="Deixe seu cometário" name="comentario"></textarea>
+
+            <input type="submit" onclick="return validar()" value="Enviar">
+            <input type="reset" name="limpa" value="Limpar">
+        </form>
+        </p>
+    </div>
+    <br><br><br>
+    <br>
+    <div class="hr">
+        <hr>
+        <h4 class="rod">trabalho acadêmico-sem fins lucrativos<br>Nicolas Alves 2023 - &copy todos os direitos reservados</h4>
+      </div>
+</body>
+
+</html>
